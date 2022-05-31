@@ -1,6 +1,6 @@
 {
   "name": "@sesame-cli/cloudbuild",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "sesame-cli cloudbuild",
   "author": "yg <yange2615@gmail.com>",
   "homepage": "https://github.com/kevin19940310/sesame-cli#readme",
