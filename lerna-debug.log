@@ -1,0 +1,7 @@
+106 error Error: Command failed with exit code 1: git commit -m v1.0.0
+106 error On branch master
+106 error nothing to commit, working tree clean
+106 error     at makeError (/Users/yg/Documents/sesame-cli/node_modules/execa/lib/error.js:60:11)
+106 error     at handlePromise (/Users/yg/Documents/sesame-cli/node_modules/execa/index.js:118:26)
+106 error     at processTicksAndRejections (node:internal/process/task_queues:96:5)
+106 error     at async Promise.all (index 0)

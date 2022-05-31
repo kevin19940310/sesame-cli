@@ -1,0 +1,44 @@
+{
+  "name": "@sesame-cli/init",
+  "version": "1.0.0",
+  "description": "@sesame-cli init",
+  "author": "kevin <yange2615@gmail.com>",
+  "homepage": "https://github.com/kevin19940310/sesame-cli#readme",
+  "license": "ISC",
+  "main": "lib/index.js",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kevin19940310/sesame-cli.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: run tests from root\" && exit 1"
+  },
+  "bugs": {
+    "url": "https://github.com/kevin19940310/sesame-cli/issues"
+  },
+  "dependencies": {
+    "@sesame-cli/command": "../../commands/command",
+    "@sesame-cli/log": "../../utils/log",
+    "@sesame-cli/package": "../../models/package",
+    "@sesame-cli/request": "../../utils/request",
+    "@sesame-cli/utils": "../../utils/utils",
+    "ejs": "^3.1.6",
+    "fs-extra": "^10.0.1",
+    "glob": "^7.2.0",
+    "inquirer": "^8.2.1",
+    "kebab-case": "^1.0.1",
+    "semver": "^7.3.5",
+    "user-home": "^3.0.0"
+  },
+  "gitHead": "a7dfd59a1378a8633b1b7ead74fdec2f827adea8"
+}
